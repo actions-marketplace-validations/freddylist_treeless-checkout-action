@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+set -ex
 
 REMOTE_REF="${GITHUB_REF/refs\//refs\/remotes\/}"
 
